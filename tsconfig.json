@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "rootDir": "src",
+    "jsx": "react",
+    "alwaysStrict": true,
+    "typeRoots": [
+        "node_modules/@types",
+        "types"
+    ],
+    "lib": [
+      "es5",
+      "es2015.core",
+      "es2015.promise",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
